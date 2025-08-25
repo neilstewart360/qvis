@@ -1,0 +1,40 @@
+title: 'Home Hero Section'
+fields:
+  -
+    handle: home_hero_background_image
+    field:
+      max_files: 1
+      min_files: 1
+      container: assets
+      type: assets
+      display: 'Home Hero  Background Image'
+  -
+    handle: home_hero_main_title
+    field:
+      type: text
+      display: 'Home Hero Main Title'
+  -
+    handle: home_hero_subtitle
+    field:
+      type: text
+      display: 'Home Hero Subtitle'
+  -
+    handle: home_hero_button_1_text
+    field:
+      type: text
+      display: 'Home Hero Button 1 Text'
+  -
+    handle: home_hero_button_1_link
+    field:
+      type: link
+      display: 'Home Hero Button 1 Link'
+  -
+    handle: home_hero_button_2_text
+    field:
+      type: text
+      display: 'Home Hero Button 2 Text'
+  -
+    handle: home_hero_button_2_link
+    field:
+      type: link
+      display: 'Home Hero Button 2 Link'

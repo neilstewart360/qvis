@@ -1,0 +1,21 @@
+title: 'Page builder'
+fields:
+  -
+    handle: sections
+    field:
+      type: replicator
+      display: Sections
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            home_hero_section:
+              display: 'Home Hero Section'
+              fields:
+                -
+                  import: home_hero_section
+            commercial_and_industrial_products:
+              display: 'Commercial and Industrial Products'
+              fields:
+                -
+                  import: commercial_and_industrial_products

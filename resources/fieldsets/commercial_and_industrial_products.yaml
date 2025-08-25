@@ -1,0 +1,56 @@
+title: 'Commercial and Industrial Products'
+fields:
+  -
+    handle: product_1_background_image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Product 1 Background Image'
+  -
+    handle: product_1_title
+    field:
+      type: text
+      display: 'Product 1 Title'
+  -
+    handle: product_1_subtitle
+    field:
+      type: text
+      display: 'Product 1 Subtitle'
+  -
+    handle: product_1_button_text
+    field:
+      type: text
+      display: 'Product 1 Button Text'
+  -
+    handle: product_1_link
+    field:
+      type: link
+      display: 'Product 1 Link'
+  -
+    handle: product_2_background_image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Product 2 Background Image'
+  -
+    handle: product_2_title
+    field:
+      type: text
+      display: 'Product 2 Title'
+  -
+    handle: product_2_subtitle
+    field:
+      type: text
+      display: 'Product 2 Subtitle'
+  -
+    handle: product_2_button_text
+    field:
+      type: text
+      display: 'Product 2 Button Text'
+  -
+    handle: product_2_link
+    field:
+      type: link
+      display: 'Product 2 Link'
