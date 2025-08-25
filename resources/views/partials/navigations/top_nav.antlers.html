@@ -1,5 +1,9 @@
-<ul>
-{{ nav:top_nav }}
-    <li><a href="{{ url }}">{{ title }}</a></li>
-{{ /nav:top_nav }}
-</ul>
+<div class="bg-blue-800">
+    <u class="font-medium flex justify-end list-none p-2">
+        {{ nav:top_nav }}
+        <li>
+            <a href="{{ url }}" class="no-underline text-white m-2 font-light">{{ title }}</a>
+        </li>
+        {{ /nav:top_nav }}
+    </ul>
+</div>

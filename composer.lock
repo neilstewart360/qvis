@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a27c873bb55a4589c124b6dce4f4c2cf",
+    "content-hash": "4840e064dc1ae58d729229a29a8e35cd",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1276,6 +1276,69 @@
                 }
             ],
             "time": "2022-05-21T17:30:32+00:00"
+        },
+        {
+            "name": "itiden/statamic-backup",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itiden/statamic-backup.git",
+                "reference": "a2f5647feee0bb366f9695f1f87aa84dfe573fbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itiden/statamic-backup/zipball/a2f5647feee0bb366f9695f1f87aa84dfe573fbd",
+                "reference": "a2f5647feee0bb366f9695f1f87aa84dfe573fbd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zip": "*",
+                "pixelfear/composer-dist-plugin": "^0.1.6",
+                "statamic/cms": "^5.0.0"
+            },
+            "require-dev": {
+                "carthage-software/mago": "^0.23.0",
+                "orchestra/testbench": "^9.0",
+                "pestphp/pest": "^3.0",
+                "pestphp/pest-plugin-laravel": "^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Itiden\\Backup\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Backup",
+                    "description": "Backup your Statamic site"
+                },
+                "download-dist": {
+                    "url": "https://github.com/itiden/statamic-backup/releases/download/{$version}/dist.tar.gz",
+                    "path": "resources/dist"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Itiden\\Backup\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Neo Lejondahl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Backup your Statamic site",
+            "support": {
+                "issues": "https://github.com/itiden/statamic-backup/issues",
+                "source": "https://github.com/itiden/statamic-backup/tree/v1.0.2"
+            },
+            "time": "2025-05-19T11:06:57+00:00"
         },
         {
             "name": "james-heinrich/getid3",
