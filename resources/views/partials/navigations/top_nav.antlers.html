@@ -1,9 +1,10 @@
-<div class="bg-blue-800">
-    <u class="font-medium flex justify-end list-none p-2">
-        {{ nav:top_nav }}
-        <li>
-            <a href="{{ url }}" class="no-underline text-white m-2 font-light">{{ title }}</a>
-        </li>
-        {{ /nav:top_nav }}
-    </ul>
-</div>
+<!-- Top Bar -->
+<nav class="bg-blue-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-end h-10 items-center space-x-6">
+      {{ nav:top_nav }}
+      <a href="{{ url }}" class="text-white text-sm hover:underline">{{ title }}</a>
+      {{ /nav:top_nav }}
+    </div>
+  </div>
+</nav>

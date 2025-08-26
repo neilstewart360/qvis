@@ -1,6 +1,11 @@
-<img src="{{ theme_settings:main_logo:url }}" class="w-50 h-auto" alt="Logo">
+{{# <img src="{{ theme_settings:main_logo:url }}" class="w-50 h-auto" alt="Logo" />
 <ul class="flex">
-{{ nav:main_nav }}
+    {{ nav:main_nav }}
     <li><a href="{{ url }}">{{ title }}</a></li>
-{{ /nav:main_nav }}
-</ul>
+    {{ /nav:main_nav }}
+</ul> #}}
+<nav class="bg-white rounded-2xl px-6 py-2 shadow flex items-center space-x-6">
+     {{ nav:main_nav }}
+    <a href="{{ url }}" class="text-gray-800 hover:text-blue-600 text-sm font-medium">{{ title }}</a>
+     {{ /nav:main_nav }}
+</nav>

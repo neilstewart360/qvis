@@ -1,0 +1,60 @@
+<section class="bg-blue-700 text-white py-16 px-6">
+  <div class="max-w-7xl mx-auto">
+    <!-- Section Header -->
+    <p class="text-sm font-medium text-teal-300">Case Studies</p>
+    <h2 class="text-4xl md:text-5xl font-bold mt-2">Brighter Spaces,<br>Safer Places</h2>
+
+    <!-- Slider -->
+    <div class="mt-10">
+      <div class="swiper myCaseStudies">
+        <div class="swiper-wrapper">
+
+          <!-- Slide -->
+          <div class="swiper-slide grid md:grid-cols-2 gap-8 items-center">
+            <!-- Image -->
+            <div class="relative">
+              <img src="/images/case-study-1.jpg" alt="Case Study" class="rounded-2xl shadow-lg">
+              <div class="absolute bottom-4 left-4 bg-white text-blue-700 px-4 py-2 rounded-lg font-semibold">
+                Case Study Name
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <button class="swiper-button-prev bg-white text-blue-700 p-2 rounded-lg shadow">&larr;</button>
+                <button class="swiper-button-next bg-white text-blue-700 p-2 rounded-lg shadow">&rarr;</button>
+                <a href="/case-studies" class="ml-auto border border-white px-4 py-2 rounded-lg flex items-center gap-2">
+                  View all Case Studies →
+                </a>
+              </div>
+              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
+                How QVIS Industrial Lighting Improved Warehouse Safety and Efficiency
+              </h3>
+              <p class="mb-6 text-lg font-light">
+                QVIS worked with a leading logistics company to upgrade the lighting across multiple warehouse sites.
+                The result was a significant improvement in visibility, energy efficiency, and staff safety.
+              </p>
+              <a href="#" class="underline underline-offset-4 font-medium">VIEW CASE STUDY →</a>
+            </div>
+          </div>
+
+
+          <!-- Repeat for more slides -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SwiperJS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  new Swiper(".myCaseStudies", {
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>

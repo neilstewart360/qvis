@@ -11,7 +11,8 @@ fields:
   -
     handle: home_hero_main_title
     field:
-      type: text
+      remove_empty_nodes: false
+      type: bard
       display: 'Home Hero Main Title'
   -
     handle: home_hero_subtitle

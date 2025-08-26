@@ -1,0 +1,85 @@
+<!-- Services Section -->
+<section class="bg-blue-700 py-16 px-6 md:px-12 lg:px-20">
+  <!-- Heading -->
+  <div class="flex justify-between items-center mb-10">
+    <div>
+      <p class="text-white/80 uppercase tracking-wide text-sm">Services</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-white leading-snug">
+        Expert Services That <br /> Support Your Project.
+      </h2>
+    </div>
+    <div class="flex items-center gap-3">
+      <!-- Swiper Navigation -->
+      <div class="flex gap-2">
+        <button class="swiper-button-prev w-10 h-10 rounded-md bg-white text-blue-700 flex items-center justify-center">
+          ‹
+        </button>
+        <button class="swiper-button-next w-10 h-10 rounded-md bg-white text-blue-700 flex items-center justify-center">
+          ›
+        </button>
+      </div>
+      <a href="#"
+        class="ml-4 bg-white text-blue-700 font-medium px-4 py-2 rounded-md flex items-center gap-2">
+        View all Services →
+      </a>
+    </div>
+  </div>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="bg-white rounded-lg shadow overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Service 1" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-semibold text-blue-700">Arrange a Site Visit</h3>
+            <p class="text-gray-600 mt-2">Book a visit from our experts to assess your site and recommend the best solutions.</p>
+            <a href="#" class="mt-4 inline-flex items-center text-blue-600 font-medium">VIEW SERVICE →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="bg-white rounded-lg shadow overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Service 2" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-semibold text-blue-700">Specialist Ceiling Type Support</h3>
+            <p class="text-gray-600 mt-2">We provide advice and solutions for even the most complex and specialist ceiling types.</p>
+            <a href="#" class="mt-4 inline-flex items-center text-blue-600 font-medium">VIEW SERVICE →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="bg-white rounded-lg shadow overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Service 3" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-lg font-semibold text-blue-700">Warranty Registration</h3>
+            <p class="text-gray-600 mt-2">Register your products easily and securely for warranty coverage and support.</p>
+            <a href="#" class="mt-4 inline-flex items-center text-blue-600 font-medium">VIEW SERVICE →</a>
+          </div>
+        </div>
+      </div>
+      <!-- More slides if needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Swiper.js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>

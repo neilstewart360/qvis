@@ -19,3 +19,38 @@ fields:
               fields:
                 -
                   import: commercial_and_industrial_products
+            our_story_section:
+              display: 'Our Story Section'
+              fields:
+                -
+                  import: our_story_section
+            our_advantages_section:
+              display: 'Our Advantages Section'
+              fields:
+                -
+                  import: our_advantages_section
+            case_studies_slider_section:
+              display: 'Case Studies Slider Section'
+              fields:
+                -
+                  import: case_studies_slider_section
+            technical_support_section:
+              display: 'Technical Support Section'
+              fields:
+                -
+                  import: technical_support_section
+            services_slider_section:
+              display: 'Services Slider Section'
+              fields:
+                -
+                  import: services_slider_section
+            latest_blogs_section:
+              display: 'Latest Blogs Section'
+              fields:
+                -
+                  import: latest_blogs_section
+            contact_section:
+              display: 'Contact Section'
+              fields:
+                -
+                  import: contact_section

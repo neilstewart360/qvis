@@ -2,9 +2,3 @@
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
-
-@layer base {
-  a {
-    @apply no-underline;
-  }
-}
