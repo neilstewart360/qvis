@@ -1,0 +1,37 @@
+title: 'Timeline Slider Section'
+fields:
+  -
+    handle: short_title
+    field:
+      type: text
+      display: 'Short Title'
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: timelines
+    field:
+      type: grid
+      display: Timelines
+      mode: stacked
+      fields:
+        -
+          handle: year
+          field:
+            type: text
+            display: Year
+        -
+          handle: main_image
+          field:
+            container: assets
+            type: assets
+            display: 'Main Image'
+            max_files: 1
+        -
+          handle: content
+          field:
+            remove_empty_nodes: false
+            type: bard
+            display: Content

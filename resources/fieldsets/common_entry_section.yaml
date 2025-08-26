@@ -1,11 +1,10 @@
-title: 'Contact Section'
+title: 'Common Entry Section'
 fields:
   -
-    handle: background_image
+    handle: short_title
     field:
-      container: assets
-      type: assets
-      display: 'Background Image'
+      type: text
+      display: 'Short Title'
   -
     handle: main_title
     field:
@@ -26,8 +25,3 @@ fields:
     field:
       type: link
       display: 'Button 1 URL'
-  -
-    handle: overlay_colour
-    field:
-      type: color
-      display: 'Overlay Colour'

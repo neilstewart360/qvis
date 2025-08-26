@@ -1,0 +1,19 @@
+title: 'Product Type Section'
+fields:
+  -
+    handle: product_type_taxonomy
+    field:
+      taxonomies:
+        - product_type
+      type: terms
+      display: 'Product Type Taxonomy'
+  -
+    handle: button_1_text
+    field:
+      type: text
+      display: 'Button 1 Text'
+  -
+    handle: button_1_url
+    field:
+      type: link
+      display: 'Button 1 URL'

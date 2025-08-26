@@ -1,0 +1,41 @@
+title: 'About Us Section'
+fields:
+  -
+    handle: short_title
+    field:
+      type: text
+      display: 'Short Title'
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: about_cards
+    field:
+      mode: stacked
+      type: grid
+      display: 'About Cards'
+      fields:
+        -
+          handle: image
+          field:
+            max_files: 1
+            container: assets
+            type: assets
+            display: Image
+        -
+          handle: title
+          field:
+            type: text
+            display: Title
+        -
+          handle: content
+          field:
+            type: textarea
+            display: Content
+        -
+          handle: link
+          field:
+            type: link
+            display: Link

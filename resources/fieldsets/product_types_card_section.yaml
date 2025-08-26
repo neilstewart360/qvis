@@ -1,0 +1,7 @@
+title: 'Product Types Card Section'
+fields:
+  -
+    handle: product_type_taxonomy
+    field:
+      type: terms
+      display: 'Product Type Taxonomy'

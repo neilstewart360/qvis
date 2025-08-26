@@ -1,0 +1,36 @@
+title: 'Our Values Section'
+fields:
+  -
+    handle: short_title
+    field:
+      type: text
+      display: 'Short Title'
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: values
+    field:
+      mode: stacked
+      type: grid
+      display: Values
+      fields:
+        -
+          handle: icon
+          field:
+            max_files: 1
+            container: assets
+            type: assets
+            display: Icon
+        -
+          handle: title
+          field:
+            type: text
+            display: Title
+        -
+          handle: content
+          field:
+            type: textarea
+            display: Content

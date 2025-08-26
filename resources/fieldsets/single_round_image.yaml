@@ -1,0 +1,8 @@
+title: 'Single Round Image'
+fields:
+  -
+    handle: main_image
+    field:
+      container: assets
+      type: assets
+      display: 'Main Image'

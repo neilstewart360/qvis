@@ -1,0 +1,7 @@
+title: 'Latest Products Section'
+fields:
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'

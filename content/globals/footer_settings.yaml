@@ -1,0 +1,21 @@
+title: 'Footer Settings'
+data:
+  copyright_text: '© Copyright 2023 QVIS Lighting & Security Ltd. All rights reserved. WEEE Account Number - 255072'
+  developed_by_text: 'Website by We Are Jungle'
+  footer_tag_line:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: Affordability
+        -
+          type: hardBreak
+        -
+          type: text
+          text: without
+        -
+          type: hardBreak
+        -
+          type: text
+          text: compromise

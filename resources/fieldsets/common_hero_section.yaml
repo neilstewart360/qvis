@@ -1,0 +1,18 @@
+title: 'Common Hero Section'
+fields:
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: subtitle
+    field:
+      type: textarea
+      display: Subtitle
+  -
+    handle: main_background_image
+    field:
+      container: assets
+      type: assets
+      display: 'Main Background Image'

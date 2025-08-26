@@ -1,0 +1,13 @@
+title: 'Product Hero Section'
+fields:
+  -
+    handle: main_title
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: 'Main Title'
+  -
+    handle: subtitle
+    field:
+      type: textarea
+      display: Subtitle

@@ -54,3 +54,58 @@ fields:
               fields:
                 -
                   import: contact_section
+            common_hero_section:
+              display: 'Common Hero Section'
+              fields:
+                -
+                  import: common_hero_section
+            common_entry_section:
+              display: 'Common Entry Section'
+              fields:
+                -
+                  import: common_entry_section
+            product_type_section:
+              display: 'Product Type Section'
+              fields:
+                -
+                  import: product_type_section
+            latest_products_section:
+              display: 'Latest Products Section'
+              fields:
+                -
+                  import: latest_products_section
+            product_hero_section:
+              display: 'Product Hero Section'
+              fields:
+                -
+                  import: product_hero_section
+            product_types_card_section:
+              display: 'Product Types Card Section'
+              fields:
+                -
+                  import: product_types_card_section
+            single_round_image:
+              display: 'Single Round Image'
+              fields:
+                -
+                  import: single_round_image
+            timeline_slider_section:
+              display: 'Timeline Slider Section'
+              fields:
+                -
+                  import: timeline_slider_section
+            our_values_section:
+              display: 'Our Values Section'
+              fields:
+                -
+                  import: our_values_section
+            about_us_section:
+              display: 'About Us Section'
+              fields:
+                -
+                  import: about_us_section
+            all_services_lists_section:
+              display: 'All Services Lists Section'
+              fields:
+                -
+                  import: all_services_lists_section

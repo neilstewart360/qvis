@@ -1,2 +1,56 @@
 title: 'Technical Support Section'
-fields: {  }
+fields:
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: Image
+  -
+    handle: image_position
+    field:
+      options:
+        -
+          key: Left
+          value: Left
+        -
+          key: Right
+          value: Right
+      type: select
+      display: 'Image Position'
+  -
+    handle: short_title
+    field:
+      type: text
+      display: 'Short Title'
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main title'
+  -
+    handle: sub_title
+    field:
+      type: textarea
+      display: 'Sub Title'
+  -
+    handle: button_1_text
+    field:
+      type: text
+      display: 'Button 1 Text'
+  -
+    handle: button_1_url
+    field:
+      type: link
+      display: 'Button 1 URL'
+  -
+    handle: button_2_text
+    field:
+      type: text
+      display: 'Button 2 Text'
+  -
+    handle: button_2_url
+    field:
+      type: link
+      display: 'Button 2 URL'

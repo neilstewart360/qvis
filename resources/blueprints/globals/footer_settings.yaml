@@ -1,0 +1,28 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: copyright_text
+            field:
+              type: text
+              display: 'Copyright Text'
+          -
+            handle: developed_by_text
+            field:
+              type: text
+              display: 'Developed by Text'
+          -
+            handle: footer_logo
+            field:
+              container: assets
+              type: assets
+              display: 'Footer Logo'
+          -
+            handle: footer_tag_line
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: 'Footer Tag Line'

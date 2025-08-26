@@ -1,0 +1,12 @@
+{{ product_type_taxonomy }}
+  <div class="p-4 border rounded">
+    <h3 class="text-xl font-bold">{{ title }}</h3>
+    <p class="text-gray-600">{{ content }}</p>
+
+    {{ if thumbnail_image }}
+      <img src="{{ thumbnail_image:url }}" alt="{{ title }}" class="mt-2 w-32 h-32 object-cover">
+    {{ /if }}
+  </div>
+
+{{ /product_type_taxonomy }}
+<a href="{{button_1_url}}">{{button_1_text}}</a>
