@@ -1,1 +1,74 @@
-Product Hero
+<!-- Hero Section -->
+<section class="bg-blue-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+
+  <!-- Header -->
+  <header class="relative z-20 flex items-center justify-between px-4 sm:px-8 lg:px-16 py-4">
+    <!-- Logo -->
+    <div class="flex items-center space-x-2">
+      <img src="assets/logo.svg" alt="QVIS Logo" class="h-10 w-auto" />
+      <span class="sr-only">QVIS Lighting & Security</span>
+    </div>
+
+    <!-- Nav -->
+    {{ partial:navigations/main_nav }}
+
+    <!-- Mobile Menu Button -->
+    <button aria-label="Open menu" class="md:hidden p-2 rounded-md bg-white shadow">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </header>
+    <!-- Heading & Subtext -->
+    <div class="max-w-3xl mb-12">
+      <h1 class="text-4xl sm:text-5xl font-bold leading-tight text-gray-900 mb-6">
+        Lighting and Security <br /> That Lead the Way
+      </h1>
+      <p class="text-lg text-gray-700">
+        Discover our full range of innovative lighting and security products — designed for
+        performance, reliability, and peace of mind. From industrial lighting to advanced
+        security solutions, Qvis delivers technology you can trust.
+      </p>
+    </div>
+
+    <!-- Categories -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="External" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">External</span>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="Industrial" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">Industrial</span>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="Surface" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">Surface & Suspended</span>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="Modular" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">Modular</span>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="Downlight" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">Downlight</span>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white shadow rounded-xl flex items-center gap-3 p-3 hover:shadow-lg transition">
+        <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="Emergency" class="w-12 h-12 rounded-md object-cover" />
+        <span class="font-medium text-gray-900">Emergency</span>
+      </div>
+    </div>
+  </div>
+</section>

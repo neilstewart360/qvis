@@ -109,3 +109,43 @@ fields:
               fields:
                 -
                   import: all_services_lists_section
+            common_hero_section_v2:
+              display: 'Common Hero Section V2'
+              fields:
+                -
+                  import: common_hero_section_v2
+            request_a_quote:
+              display: 'Request a Quote'
+              fields:
+                -
+                  import: request_a_quote
+            all_services_lists_v2_section:
+              display: 'All Services Lists V2 Section'
+              fields:
+                -
+                  import: all_services_lists_v2_section
+            career_grid_section:
+              display: 'Career Grid Section'
+              fields:
+                -
+                  import: career_grid_section
+            blog_grid_section:
+              display: 'Blog Grid Section'
+              fields:
+                -
+                  import: blog_grid_section
+            two_column_image_text_layout:
+              display: 'Two Column Image Text Layout'
+              fields:
+                -
+                  import: two_column_image_text_layout
+            faq_section:
+              display: 'FAQ Section'
+              fields:
+                -
+                  import: faq_section
+            case_study_list_section:
+              display: 'Case Study List Section'
+              fields:
+                -
+                  import: case_study_list_section

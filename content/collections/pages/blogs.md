@@ -1,22 +1,26 @@
 ---
-id: 8cac32fc-afc1-40bc-84b2-2f3b56a2b313
+id: d92b8d38-b499-4753-9fd1-2573fb194b2c
 blueprint: page
-title: 'Case Studies'
+title: Blogs
 author: ce4d9da0-2744-4453-a6cd-e1ca8d18260e
-template: case_study/index
 updated_by: ce4d9da0-2744-4453-a6cd-e1ca8d18260e
-updated_at: 1756383537
+updated_at: 1756362819
+template: blogs/index
 sections:
   -
-    id: mevd5tvz
+    id: meuz44ca
     type: common_hero_section
     enabled: true
   -
-    id: mevd7sa8
-    type: case_study_list_section
+    id: meuz481j
+    type: common_entry_section
     enabled: true
   -
-    id: mevdepyn
+    id: mev11nic
+    type: blog_grid_section
+    enabled: true
+  -
+    id: mev12nsv
     type: contact_section
     enabled: true
 ---

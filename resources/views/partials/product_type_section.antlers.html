@@ -1,4 +1,4 @@
-{{ product_type_taxonomy }}
+{{# {{ product_type_taxonomy }}
   <div class="p-4 border rounded">
     <h3 class="text-xl font-bold">{{ title }}</h3>
     <p class="text-gray-600">{{ content }}</p>
@@ -9,4 +9,52 @@
   </div>
 
 {{ /product_type_taxonomy }}
-<a href="{{button_1_url}}">{{button_1_text}}</a>
+<a href="{{button_1_url}}">{{button_1_text}}</a> #}}
+
+
+<section class="bg-blue-800 text-white px-6 sm:px-12 lg:px-20 py-16">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+    <!-- Left Column -->
+    <div>
+      <h2 class="text-sm font-medium uppercase tracking-wide mb-6">Product Types</h2>
+      <ul class="space-y-6 text-3xl sm:text-4xl font-light">
+        <li><a href="#" class="hover:text-white transition text-gray-300">External</a></li>
+        <li class="flex items-center space-x-3">
+          <span class="font-semibold">Industrial</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </li>
+        <li><a href="#" class="hover:text-white transition text-gray-300">Surface &amp; Suspended</a></li>
+        <li><a href="#" class="hover:text-white transition text-gray-300">Modular</a></li>
+        <li><a href="#" class="hover:text-white transition text-gray-300">Downlight</a></li>
+        <li><a href="#" class="hover:text-white transition text-gray-300">Emergency</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="flex flex-col space-y-6">
+      <img
+        src="assets/tengyart-ksvptrfhaiu-unsplash.jpg"
+        alt="Industrial lighting in warehouse"
+        class="rounded-lg object-cover"
+      />
+      <p class="text-sm leading-relaxed text-gray-200">
+        Qvis industrial lighting solutions are engineered to deliver exceptional performance in the most demanding environments.
+        Whether for warehouses, manufacturing plants, or large-scale facilities, our products combine durability, energy efficiency,
+        and advanced technology to enhance visibility, improve safety, and reduce operating costs. Designed with longevity and reliability
+        in mind, Qvis lighting helps create brighter, safer, and more productive spaces, ensuring your operations run smoothly day and night.
+      </p>
+    </div>
+  </div>
+
+  <!-- Discover All -->
+  <div class="max-w-7xl mx-auto mt-12 flex justify-end border-t border-white/30 pt-6">
+    <a href="#" class="flex items-center space-x-2 text-sm font-medium uppercase tracking-wide hover:underline">
+      <span>Discover All</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</section>

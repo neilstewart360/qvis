@@ -1,0 +1,71 @@
+<section class="bg-white py-16 px-6 lg:px-12">
+  <div class="max-w-3xl mx-auto text-center">
+    <p class="text-blue-600 font-medium mb-2">FAQs</p>
+    <h2 class="text-3xl font-bold text-gray-900 mb-10">
+      Frequently Asked Questions for Education
+    </h2>
+  </div>
+
+  <div class="max-w-3xl mx-auto space-y-4">
+
+    <!-- FAQ Item -->
+    <div class="bg-blue-50 rounded-lg p-5 cursor-pointer" onclick="toggleFAQ(this)">
+      <div class="flex items-center justify-between">
+        <h3 class="text-lg font-medium text-gray-800">
+          Do you offer free site assessments for schools?
+        </h3>
+        <span class="w-6 h-6 flex items-center justify-center border border-blue-500 text-blue-500 rounded-full">+</span>
+      </div>
+      <p class="mt-4 text-gray-600 hidden">
+        Yes, we provide free site assessments to schools to understand their needs and recommend tailored solutions.
+      </p>
+    </div>
+
+    <!-- FAQ Item -->
+    <div class="bg-blue-50 rounded-lg p-5 cursor-pointer" onclick="toggleFAQ(this)">
+      <div class="flex items-center justify-between">
+        <h3 class="text-lg font-medium text-gray-800">
+          Can your systems help schools reduce energy use?
+        </h3>
+        <span class="w-6 h-6 flex items-center justify-center border border-blue-500 text-blue-500 rounded-full">+</span>
+      </div>
+      <p class="mt-4 text-gray-600 hidden">
+        Our smart lighting systems and energy-efficient technologies are designed to lower energy usage and reduce bills.
+      </p>
+    </div>
+
+    <!-- FAQ Item -->
+    <div class="bg-blue-50 rounded-lg p-5 cursor-pointer" onclick="toggleFAQ(this)">
+      <div class="flex items-center justify-between">
+        <h3 class="text-lg font-medium text-gray-800">
+          Do your products meet education sector regulations?
+        </h3>
+        <span class="w-6 h-6 flex items-center justify-center border border-blue-500 text-blue-500 rounded-full">−</span>
+      </div>
+      <p class="mt-4 text-gray-600">
+        All our lighting and security systems are designed to meet or exceed UK safety and compliance standards for educational settings. Our products are tested to ensure they align with regulations on fire safety, emergency lighting, and safeguarding.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function toggleFAQ(el) {
+    const p = el.querySelector("p");
+    const icon = el.querySelector("span");
+    const isOpen = !p.classList.contains("hidden");
+
+    // Close all FAQs
+    document.querySelectorAll("section .max-w-3xl > div").forEach(item => {
+      item.querySelector("p").classList.add("hidden");
+      item.querySelector("span").textContent = "+";
+    });
+
+    // Open clicked if not already open
+    if (!isOpen) {
+      p.classList.remove("hidden");
+      icon.textContent = "−";
+    }
+  }
+</script>

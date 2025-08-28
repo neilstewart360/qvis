@@ -1,8 +1,96 @@
-Timeline
+{{# Timeline
 {{timelines}}
 
 {{year}}
 {{content}}
 <img src="{{ main_image:url }}" alt="img1"/>
 
-{{/timelines}}
+{{/timelines}} #}}
+<!-- Timeline Section -->
+<section class="w-full bg-[#0c2544] py-16 text-white">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <!-- Title -->
+    <h2 class="text-3xl lg:text-4xl font-bold mb-8">Moments to remember</h2>
+
+    <!-- Swiper Container -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="relative rounded-2xl overflow-hidden h-[400px] flex items-end">
+            <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="2019" class="absolute inset-0 w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative p-6">
+              <h3 class="text-6xl font-extrabold">2019</h3>
+              <p class="mt-2 font-semibold">Nationwide Partnerships Established</p>
+              <p class="text-sm mt-2">
+                QVIS forms key partnerships with distributors and contractors across the UK,
+                strengthening our supply chain and ensuring our products reach customers quickly and efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="relative rounded-2xl overflow-hidden h-[400px] flex items-end">
+            <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="2024" class="absolute inset-0 w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative p-6">
+              <h3 class="text-6xl font-extrabold">2024</h3>
+              <p class="mt-2 font-semibold">Relocated to New Head Office</p>
+              <p class="text-sm mt-2">
+                To support our continued growth, we move into a modern, purpose-built head office.
+                This new space enables greater collaboration, innovation, and customer support as we look to the future.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="relative rounded-2xl overflow-hidden h-[400px] flex items-end">
+            <img src="assets/tengyart-ksvptrfhaiu-unsplash.jpg" alt="2025" class="absolute inset-0 w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative p-6">
+              <h3 class="text-6xl font-extrabold">2025</h3>
+              <p class="mt-2 font-semibold">Looking Ahead</p>
+              <p class="text-sm mt-2">
+                QVIS remains committed to pushing boundaries of lighting and security technology.
+                With new product developments and enhanced services on the horizon,
+                we’re focused on helping customers create safer, smarter environments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="flex justify-end gap-3 mt-6">
+        <div class="swiper-button-prev !static !w-10 !h-10 bg-white text-black rounded-full shadow"></div>
+        <div class="swiper-button-next !static !w-10 !h-10 bg-white text-black rounded-full shadow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Swiper.js CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    }
+  });
+</script>

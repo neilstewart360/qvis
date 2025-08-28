@@ -1,0 +1,12 @@
+title: 'Request a Quote'
+fields:
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: subtitle
+    field:
+      type: textarea
+      display: Subtitle

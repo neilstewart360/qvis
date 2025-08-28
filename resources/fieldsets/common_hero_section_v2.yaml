@@ -1,0 +1,28 @@
+title: 'Common Hero Section V2'
+fields:
+  -
+    handle: main_title
+    field:
+      type: text
+      display: 'Main Title'
+  -
+    handle: subtitle
+    field:
+      type: textarea
+      display: Subtitle
+  -
+    handle: breadcrumb
+    field:
+      type: grid
+      display: Breadcrumb
+      fields:
+        -
+          handle: menu_name
+          field:
+            type: text
+            display: 'Menu Name'
+        -
+          handle: menu_link
+          field:
+            type: link
+            display: 'Menu Link'

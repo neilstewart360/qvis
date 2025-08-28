@@ -4,6 +4,13 @@ blueprint: page
 title: 'Technical Support'
 author: ce4d9da0-2744-4453-a6cd-e1ca8d18260e
 updated_by: ce4d9da0-2744-4453-a6cd-e1ca8d18260e
-updated_at: 1756136386
+updated_at: 1756282084
 template: main
+sections:
+  -
+    id: metoxbut
+    type: request_a_quote
+    enabled: true
+    main_title: 'Request a Quote in Minutes'
+    subtitle: 'This is Subtitle'
 ---
