@@ -1,28 +1,4 @@
-<!-- Navbar -->
-<header class="absolute top-10 left-0 w-full z-50 ">
-  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-
-    <!-- Logo -->
-    <div class="flex items-center">
-      <img src="{{ theme_settings:main_logo:url }}" alt="QVIS Logo" class="h-8">
-    </div>
-
-    <!-- Center Navigation -->
-    {{ partial:navigations/main_nav }}
-
-
-    <!-- Right Icons -->
-    <div class="flex items-center space-x-3">
-      <button class="p-2 rounded-xl bg-gray-100 hover:bg-gray-200">
-        🔍
-      </button>
-      <button class="p-2 rounded-xl bg-gray-100 hover:bg-gray-200">
-        👤
-      </button>
-    </div>
-  </div>
-</header>
-
+{{ partial:navigations/main_nav }}
 <!-- Hero Section -->
 <section class="relative h-screen bg-cover bg-center" style="background-image: url('/hero-bg.jpg');">
   <!-- Overlay -->

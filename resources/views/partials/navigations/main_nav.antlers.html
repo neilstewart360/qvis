@@ -1,18 +1,39 @@
+<!-- Navbar -->
+<header class="absolute top-10 left-0 w-full z-50 ">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-<nav class="hidden md:flex items-center space-x-8 bg-white rounded-full px-6 py-3 shadow">
+    <!-- Logo -->
+    <div class="flex items-center">
+      <img src="{{ theme_settings:main_logo:url }}" alt="QVIS Logo" class="h-8">
+    </div>
+
+    <!-- Center Navigation -->
+    <nav class="hidden md:flex items-center space-x-8 bg-white rounded-full px-6 py-3 shadow">
       {{ nav:main_nav }}
-    <a href="{{ url }}" class="text-gray-800 hover:text-gray-900 text-sm font-medium">{{ title }}</a>
-      {{ /nav:main_nav }}
-      <div class="flex items-center space-x-3 pl-4 border-l border-gray-200">
-        <button aria-label="Search" class="p-2 rounded-full hover:bg-gray-100">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-5.2-5.2M15 11a4 4 0 11-8 0 4 4 0 018 0z" />
-          </svg>
-        </button>
-        <button aria-label="User account" class="p-2 rounded-full hover:bg-gray-100">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-          </svg>
-        </button>
-      </div>
-    </nav>
+<a href="{{ url }}" class="text-gray-800 hover:text-gray-900 text-sm font-medium">{{ title }}</a>
+    {{ /nav:main_nav }}
+    <div class="flex items-center space-x-3 pl-4 border-l border-gray-200">
+    <button aria-label="Search" class="p-2 rounded-full hover:bg-gray-100">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-5.2-5.2M15 11a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+    </button>
+    <button aria-label="User account" class="p-2 rounded-full hover:bg-gray-100">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 1118.88 6.196M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+    </button>
+    </div>
+</nav>
+    <!-- Right Icons -->
+    <div class="flex items-center space-x-3">
+      <button class="p-2 rounded-xl bg-gray-100 hover:bg-gray-200">
+        🔍
+      </button>
+      <button class="p-2 rounded-xl bg-gray-100 hover:bg-gray-200">
+        👤
+      </button>
+    </div>
+  </div>
+</header>
+
